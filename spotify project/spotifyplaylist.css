@@ -1,0 +1,2201 @@
+*{margin: 0%;
+padding: 0%;}
+
+body{
+        
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-color: rgba(0, 0, 0, 0.883);
+    /* width: 100vw;
+    width: 100vh; */
+    }
+
+.main{
+       
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.maindiv{width: 400px;
+    height: 600px;
+    margin: 18px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(59, 91, 6, 0.849), black 65% );
+    border-radius: 20px;} 
+
+
+
+    .content{width: 100vw;
+    height: 100vh;}
+
+   .gridimage{display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+position: absolute;
+top: 10px;}
+
+    
+
+
+
+
+#playlist{
+    position: absolute;
+    left: 5px;
+    margin: 10px;
+    top: 240px;
+}
+
+#year{font-size: x-large;
+font-weight: 600;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: white;
+font-style:initial;
+position: absolute;
+top: -40px;
+left: 5px;    
+margin: -2px;}
+
+#icon{border: 1px solid transparent;
+background-color: rgb(90, 53, 4);
+font-size: small;
+font-weight: 699;
+/* height: 150px;
+width: 150px; */
+border-radius: 50px;
+padding: 2px;
+margin-right:  10px;
+}
+
+#id{font-size:15px ;
+    font-weight: 870;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    left: 0px; 
+    top: -15px;   
+    margin-top: 8px;
+    display: inline-block;
+}
+
+#world{position: absolute;
+top: 20px;}
+
+#download{position: absolute;
+    top: 295px;
+left: 15px;}
+
+
+#user{position: absolute;
+    top: 295px;
+left: 55px;}
+
+
+
+
+#maindot{position: absolute;
+    top: 295px;
+left: 95px;}
+
+
+#shuffle{position: absolute;
+    top: 295px;
+left: 315px;}
+
+
+#play{position: absolute;
+    top: 300px;
+left: 355px;
+
+}
+
+
+#duration{font-size: large;
+    color: rgba(255, 255, 255, 0.708);
+    position: absolute;
+    left: 25px;  
+    top: 10px;  
+    margin-top: 8px;} 
+
+    
+#addsongs{color: white;
+    font-family :Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    font-weight: 600;
+    border: 1px solid rgba(255, 255, 255, 0.548);
+    border-radius: 20px;
+    padding: 5px 25px;
+position: absolute;
+top: 320px;}
+      
+    
+/* jailer song */
+
+#jailer{display: flex;
+overflow: hidden;}
+
+
+#imgicon{position: absolute;
+    left: 5px; 
+    top: 350px;   
+    margin: 10px;}
+
+#songname{color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+position: absolute;
+top: 350px;
+left: 75px;
+margin: 8px;
+text-align:left;
+}
+
+#lyrics{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(255, 255, 255, 0.768);
+    color: black;
+    font-weight: 550;
+    font-size: 13px;
+    border-radius: 5px;
+    padding: 1px;
+
+}
+
+#singername{color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 10px;
+    font-size: 15px;
+font-weight: 550;
+color: rgba(255, 255, 255, 0.586);}
+
+#dot{
+    position: absolute;
+    top: 375px;
+    left: 360px;
+    font-size: large;
+    color: rgba(255, 255, 255, 0.515);
+    
+}
+
+    
+    /* leo  */
+
+
+
+    #leo{display: flex;
+        overflow: hidden;}
+        
+        
+        #imgicon2{position: absolute;
+            left: 5px; 
+            top: 410px;   
+            margin: 10px;}
+        
+        #songname2{color: white;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+        position: absolute;
+        top: 410px;
+        left: 75px;
+        margin: 8px;
+        text-align:left;
+        }
+        
+        #lyrics2{
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: rgba(255, 255, 255, 0.768);
+            color: black;
+            font-weight: 550;
+            font-size: 13px;
+            border-radius: 5px;
+            padding: 1px;
+        
+        }
+        
+        #singername2{color: white;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-top: 10px;
+            font-size: 15px;
+        font-weight: 550;
+        color: rgba(255, 255, 255, 0.586);}
+
+        
+#dot2{
+    position: absolute;
+    top: 435px;
+    left: 360px;
+    font-size: large;
+    color: rgba(255, 255, 255, 0.515);
+    
+}
+
+
+        /* kaavaalaa */
+
+        
+
+
+    #kaavaalaa{display: flex;
+        overflow: hidden;}
+        
+        
+        #imgicon3{position: absolute;
+            left: 5px; 
+            top: 470px;   
+            margin: 10px;}
+        
+        #songname3{color: white;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+        position: absolute;
+        top: 470px;
+        left: 75px;
+        margin: 8px;
+        text-align:left;
+        }
+        
+        #lyrics3{
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: rgba(255, 255, 255, 0.768);
+            color: black;
+            font-weight: 550;
+            font-size: 13px;
+            border-radius: 5px;
+            padding: 1px;
+        
+        }
+        
+        #singername3{color: white;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-top: 10px;
+            font-size: 15px;
+        font-weight: 550;
+        color: rgba(255, 255, 255, 0.586);}
+
+        
+#dot3{
+    position: absolute;
+    top: 495px;
+    left: 360px;
+    font-size: large;
+    color: rgba(255, 255, 255, 0.515);
+    
+}
+
+
+/* maaveeran */
+
+
+
+
+#vanaarapettayila{display: flex;
+    overflow: hidden;}
+    
+    
+    #imgicon4{position: absolute;
+        left: 5px; 
+        top: 530px;   
+        margin: 10px;}
+    
+    #songname4{color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+    position: absolute;
+    top: 530px;
+    left: 75px;
+    margin: 8px;
+    text-align:left;
+    }
+    
+    #lyrics4{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: rgba(255, 255, 255, 0.768);
+        color: black;
+        font-weight: 550;
+        font-size: 13px;
+        border-radius: 5px;
+        padding: 1px;
+    
+    }
+    
+    #singername4{color: white;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-top: 10px;
+        font-size: 15px;
+    font-weight: 550;
+    color: rgba(255, 255, 255, 0.586);}
+
+
+    
+#dot4{
+    position: absolute;
+    top: 555px;
+    left: 360px;
+    font-size: large;
+    color: rgba(255, 255, 255, 0.515);
+    
+}
+
+#songlist{width: 100vw;
+height: 100vh;}
+
+
+/* MEDIA SCREEN 380PX */
+
+@media screen and (min-width:380px) and (max-width:399px) {
+
+    #year{font-size: largeR;
+        font-weight: 600;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-style:initial;
+        position: absolute;
+        top: -40px;
+        left: 5px;    
+        margin: -2px;}
+        
+        #icon{border: 1px solid transparent;
+        background-color: rgb(90, 53, 4);
+        font-size: small;
+        font-weight: 699;
+        border-radius: 50px;
+        padding: 2px;
+        margin-right:  10px;
+        }
+        
+        #id{font-size:15px ;
+            font-weight: 870;
+            color: white;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            position: absolute;
+            left: 0px; 
+            top: -25px;   
+            margin-top: 8px;
+            display: inline-block;
+        }
+        
+        #world{position: absolute;
+        top: 10px;}
+        
+        #download{position: absolute;
+            top: 285px;
+        left: 15px;}
+        
+        
+        #user{position: absolute;
+            top: 285px;
+        left: 55px;}
+        
+        
+        
+        
+        #maindot{position: absolute;
+            top: 285px;
+        left: 95px;}
+
+    
+#duration{font-size: large;
+    color: rgba(255, 255, 255, 0.708);
+    position: absolute;
+    left: 25px;  
+    top: 0px;  
+    margin-top: 8px;} 
+
+    
+#addsongs{color: white;
+    font-family :Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12PX;
+    font-weight: 600;
+    border: 1px solid rgba(255, 255, 255, 0.548);
+    border-radius: 20px;
+    padding: 3px 15px;
+position: absolute;
+top: 310px;}
+
+    
+#shuffle{position: absolute;
+    top: 285px;
+left: 305px;}
+
+
+#play{position: absolute;
+    top: 290px;
+left: 335px;
+}
+
+
+    #jailer{display: flex;
+        overflow: hidden;}
+
+        /* SHUFFLE BUTTON PLAY BUTTON */
+ 
+        
+
+
+        
+        /*IMAGE ICON  */
+        #imgicon
+        {position: absolute;
+            left: 0px; 
+            top: 350px;   
+            margin: 5px;}
+
+
+         #imgicon2
+         {position: absolute;
+            left: 0px; 
+            top: 410px;   
+            margin: 5px;}
+
+
+         #imgicon3
+         {position: absolute;
+            left: 0px; 
+            top: 470px;   
+            margin: 5px;}
+
+
+         #imgicon4
+         {position: absolute;
+            left: 0px; 
+            top: 530px;   
+            margin: 5px;}
+        
+        #songname
+        {color: white;            
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 17px;
+            font-weight: 600;
+        position: absolute;
+        top: 350px;
+        left: 60px;
+        margin: 8px;
+        text-align:left;
+        }
+
+
+        #songname2
+        {color: white;            
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 17px;
+            font-weight: 600;
+        position: absolute;
+        top: 410px;
+        left: 60px;
+        margin: 8px;
+        text-align:left;
+        }
+
+
+        #songname3
+        {color: white;            
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 17px;
+            font-weight: 600;
+        position: absolute;
+        top: 470px;
+        left: 60px;
+        margin: 8px;
+        text-align:left;
+        }
+
+
+        #songname4
+        {color: white;            
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 17px;
+            font-weight: 600;
+        position: absolute;
+        top: 530px;
+        left: 60px;
+        margin: 8px;
+        text-align:left;
+        } 
+     
+        
+        #lyrics
+        {
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: rgba(255, 255, 255, 0.768);
+            color: black;
+            font-weight: 550;
+            font-size: 14px;
+            border-radius: 5px;
+            padding: 1px;
+        
+        }
+
+
+        #lyrics2
+        {
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: rgba(255, 255, 255, 0.768);
+            color: black;
+            font-weight: 550;
+            font-size: 14px;
+            border-radius: 5px;
+            padding: 1px;
+        
+        }
+
+
+        #lyrics3
+        {
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: rgba(255, 255, 255, 0.768);
+            color: black;
+            font-weight: 550;
+            font-size: 14px;
+            border-radius: 5px;
+            padding: 1px;
+        
+        }
+
+        #lyrics4
+        {
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: rgba(255, 255, 255, 0.768);
+            color: black;
+            font-weight: 550;
+            font-size: 14px;
+            border-radius: 5px;
+            padding: 1px;
+        
+        }
+       
+        
+        #singername
+        {color: white;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-top: 5px;
+            font-size: 15px;
+        font-weight: 550;
+        color: rgba(255, 255, 255, 0.586);}
+        
+        #singername2
+        {color: white;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-top: 5px;
+            font-size: 15px;
+        font-weight: 550;
+        color: rgba(255, 255, 255, 0.586);}
+        
+        #singername3
+        {color: white;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-top: 5px;
+            font-size: 15px;
+        font-weight: 550;
+        color: rgba(255, 255, 255, 0.586);}
+        
+        #singername4
+        {color: white;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-top: 5px;
+            font-size: 15px;
+        font-weight: 550;
+        color: rgba(255, 255, 255, 0.586);}
+
+
+        
+        #dot
+        {
+            position: absolute;
+            top: 365px;
+            left: 350px;
+            font-size: large;
+            color: rgba(255, 255, 255, 0.515);
+            
+        }
+        
+        #dot2
+        {
+            position: absolute;
+            top: 420px;
+            left: 350px;
+            font-size: large;
+            color: rgba(255, 255, 255, 0.515);
+            
+        }
+        
+        #dot3
+        {
+            position: absolute;
+            top: 485px;
+            left: 350px;
+            font-size: large;
+            color: rgba(255, 255, 255, 0.515);
+            
+        }
+        
+        #dot4
+        {
+            position: absolute;
+            top: 545px;
+            left: 350px;
+            font-size: large;
+            color: rgba(255, 255, 255, 0.515);
+            
+        }
+    
+
+    
+    
+}
+
+
+
+
+
+/* MEDIA SCREEN 360PX------ */
+
+@media screen and (min-width:360px) and (max-width:379px) {
+
+    #year{font-size: largeR;
+        font-weight: 600;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-style:initial;
+        position: absolute;
+        top: -40px;
+        left: 5px;    
+        margin: -2px;}
+        
+        #icon{border: 1px solid transparent;
+        background-color: rgb(90, 53, 4);
+        font-size: small;
+        font-weight: 699;
+        border-radius: 50px;
+        padding: 2px;
+        margin-right:  10px;
+        }
+        
+        #id{font-size:15px ;
+            font-weight: 870;
+            color: white;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            position: absolute;
+            left: 0px; 
+            top: -25px;   
+            margin-top: 8px;
+            display: inline-block;
+        }
+        
+        #world{position: absolute;
+        top: 10px;}
+        
+        #download{position: absolute;
+            top: 285px;
+        left: 15px;}
+        
+        
+        #user{position: absolute;
+            top: 285px;
+        left: 55px;}
+        
+        
+        
+        
+        #maindot{position: absolute;
+            top: 285px;
+        left: 95px;}
+
+    
+#duration{font-size: large;
+    color: rgba(255, 255, 255, 0.708);
+    position: absolute;
+    left: 25px;  
+    top: 0px;  
+    margin-top: 8px;} 
+
+    
+#addsongs{color: white;
+    font-family :Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12PX;
+    font-weight: 600;
+    border: 1px solid rgba(255, 255, 255, 0.548);
+    border-radius: 20px;
+    padding: 3px 15px;
+position: absolute;
+top: 310px;}
+
+    
+#shuffle{position: absolute;
+    top: 285px;
+left: 290px;}
+
+
+#play{position: absolute;
+    top: 290px;
+left: 320px;
+}
+
+
+    #jailer{display: flex;
+        overflow: hidden;}
+
+        /* SHUFFLE BUTTON PLAY BUTTON */
+ 
+        
+
+
+        
+        /*IMAGE ICON  */
+        #imgicon
+        {position: absolute;
+            left: 0px; 
+            top: 350px;   
+            margin: 5px;}
+
+
+         #imgicon2
+         {position: absolute;
+            left: 0px; 
+            top: 410px;   
+            margin: 5px;}
+
+
+         #imgicon3
+         {position: absolute;
+            left: 0px; 
+            top: 470px;   
+            margin: 5px;}
+
+
+         #imgicon4
+         {position: absolute;
+            left: 0px; 
+            top: 530px;   
+            margin: 5px;}
+        
+        #songname
+        {color: white;            
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+        position: absolute;
+        top: 350px;
+        left: 60px;
+        margin: 8px;
+        text-align:left;
+        }
+
+
+        #songname2
+        {color: white;            
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+        position: absolute;
+        top: 410px;
+        left: 60px;
+        margin: 8px;
+        text-align:left;
+        }
+
+
+        #songname3
+        {color: white;            
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+        position: absolute;
+        top: 470px;
+        left: 60px;
+        margin: 8px;
+        text-align:left;
+        }
+
+
+        #songname4
+        {color: white;            
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+        position: absolute;
+        top: 530px;
+        left: 60px;
+        margin: 8px;
+        text-align:left;
+        } 
+     
+        
+        #lyrics
+        {
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: rgba(255, 255, 255, 0.768);
+            color: black;
+            font-weight: 550;
+            font-size: 12px;
+            border-radius: 5px;
+            padding: 1px;
+        
+        }
+
+
+        #lyrics2
+        {
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: rgba(255, 255, 255, 0.768);
+            color: black;
+            font-weight: 550;
+            font-size: 12px;
+            border-radius: 5px;
+            padding: 1px;
+        
+        }
+
+
+        #lyrics3
+        {
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: rgba(255, 255, 255, 0.768);
+            color: black;
+            font-weight: 550;
+            font-size: 12px;
+            border-radius: 5px;
+            padding: 1px;
+        
+        }
+
+        #lyrics4
+        {
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: rgba(255, 255, 255, 0.768);
+            color: black;
+            font-weight: 550;
+            font-size: 12px;
+            border-radius: 5px;
+            padding: 1px;
+        
+        }
+       
+        
+        #singername
+        {color: white;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-top: 5px;
+            font-size: 13px;
+        font-weight: 550;
+        color: rgba(255, 255, 255, 0.586);}
+        
+        #singername2
+        {color: white;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-top: 5px;
+            font-size: 13px;
+        font-weight: 550;
+        color: rgba(255, 255, 255, 0.586);}
+        
+        #singername3
+        {color: white;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-top: 5px;
+            font-size: 13px;
+        font-weight: 550;
+        color: rgba(255, 255, 255, 0.586);}
+        
+        #singername4
+        {color: white;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-top: 5px;
+            font-size: 13px;
+        font-weight: 550;
+        color: rgba(255, 255, 255, 0.586);}
+
+
+        
+        #dot
+        {
+            position: absolute;
+            top: 365px;
+            left: 335px;
+            font-size: large;
+            color: rgba(255, 255, 255, 0.515);
+            
+        }
+        
+        #dot2
+        {
+            position: absolute;
+            top: 420px;
+            left: 335px;
+            font-size: large;
+            color: rgba(255, 255, 255, 0.515);
+            
+        }
+        
+        #dot3
+        {
+            position: absolute;
+            top: 485px;
+            left: 335px;
+            font-size: large;
+            color: rgba(255, 255, 255, 0.515);
+            
+        }
+        
+        #dot4
+        {
+            position: absolute;
+            top: 545px;
+            left: 335px;
+            font-size: large;
+            color: rgba(255, 255, 255, 0.515);
+            
+        }
+    
+
+    
+    
+}
+
+
+
+/* MEDIA SCREEN 340PX------ */
+
+@media screen and (min-width:340px) and (max-width:359px) {
+
+    #year{font-size: largeR;
+        font-weight: 600;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-style:initial;
+        position: absolute;
+        top: -40px;
+        left: 5px;    
+        margin: -2px;}
+        
+        #icon{border: 1px solid transparent;
+        background-color: rgb(90, 53, 4);
+        font-size: small;
+        font-weight: 699;
+        border-radius: 50px;
+        padding: 2px;
+        margin-right:  10px;
+        }
+        
+        #id{font-size:15px ;
+            font-weight: 870;
+            color: white;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            position: absolute;
+            left: 0px; 
+            top: -25px;   
+            margin-top: 8px;
+            display: inline-block;
+        }
+        
+        #world{position: absolute;
+        top: 10px;}
+        
+        #download{position: absolute;
+            top: 285px;
+        left: 15px;}
+        
+        
+        #user{position: absolute;
+            top: 285px;
+        left: 55px;}
+        
+        
+        
+        
+        #maindot{position: absolute;
+            top: 285px;
+        left: 95px;}
+
+    
+#duration{font-size: large;
+    color: rgba(255, 255, 255, 0.708);
+    position: absolute;
+    left: 25px;  
+    top: 0px;  
+    margin-top: 8px;} 
+
+    
+#addsongs{color: white;
+    font-family :Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12PX;
+    font-weight: 600;
+    border: 1px solid rgba(255, 255, 255, 0.548);
+    border-radius: 20px;
+    padding: 3px 15px;
+position: absolute;
+top: 310px;}
+
+    
+#shuffle{position: absolute;
+    top: 285px;
+left: 270px;}
+
+
+#play{position: absolute;
+    top: 290px;
+left: 295px;
+}
+
+
+    #jailer{display: flex;
+        overflow: hidden;}
+
+        /* SHUFFLE BUTTON PLAY BUTTON */
+ 
+        
+
+
+        
+        /*IMAGE ICON  */
+        #imgicon
+        {position: absolute;
+            left: 0px; 
+            top: 350px;   
+            margin: 5px;}
+
+
+         #imgicon2
+         {position: absolute;
+            left: 0px; 
+            top: 410px;   
+            margin: 5px;}
+
+
+         #imgicon3
+         {position: absolute;
+            left: 0px; 
+            top: 470px;   
+            margin: 5px;}
+
+
+         #imgicon4
+         {position: absolute;
+            left: 0px; 
+            top: 530px;   
+            margin: 5px;}
+        
+        #songname
+        {color: white;            
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+        position: absolute;
+        top: 350px;
+        left: 60px;
+        margin: 8px;
+        text-align:left;
+        }
+
+
+        #songname2
+        {color: white;            
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+        position: absolute;
+        top: 410px;
+        left: 60px;
+        margin: 8px;
+        text-align:left;
+        }
+
+
+        #songname3
+        {color: white;            
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+        position: absolute;
+        top: 470px;
+        left: 60px;
+        margin: 8px;
+        text-align:left;
+        }
+
+
+        #songname4
+        {color: white;            
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+        position: absolute;
+        top: 530px;
+        left: 60px;
+        margin: 8px;
+        text-align:left;
+        } 
+     
+        
+        #lyrics
+        {
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: rgba(255, 255, 255, 0.768);
+            color: black;
+            font-weight: 550;
+            font-size: 12px;
+            border-radius: 5px;
+            padding: 1px;
+        
+        }
+
+
+        #lyrics2
+        {
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: rgba(255, 255, 255, 0.768);
+            color: black;
+            font-weight: 550;
+            font-size: 12px;
+            border-radius: 5px;
+            padding: 1px;
+        
+        }
+
+
+        #lyrics3
+        {
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: rgba(255, 255, 255, 0.768);
+            color: black;
+            font-weight: 550;
+            font-size: 12px;
+            border-radius: 5px;
+            padding: 1px;
+        
+        }
+
+        #lyrics4
+        {
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: rgba(255, 255, 255, 0.768);
+            color: black;
+            font-weight: 550;
+            font-size: 12px;
+            border-radius: 5px;
+            padding: 1px;
+        
+        }
+       
+        
+        #singername
+        {color: white;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-top: 5px;
+            font-size: 13px;
+        font-weight: 550;
+        color: rgba(255, 255, 255, 0.586);}
+        
+        #singername2
+        {color: white;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-top: 5px;
+            font-size: 13px;
+        font-weight: 550;
+        color: rgba(255, 255, 255, 0.586);}
+        
+        #singername3
+        {color: white;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-top: 5px;
+            font-size: 13px;
+        font-weight: 550;
+        color: rgba(255, 255, 255, 0.586);}
+        
+        #singername4
+        {color: white;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-top: 5px;
+            font-size: 13px;
+        font-weight: 550;
+        color: rgba(255, 255, 255, 0.586);}
+
+
+        
+        #dot
+        {
+            position: absolute;
+            top: 365px;
+            left: 320px;
+            font-size: large;
+            color: rgba(255, 255, 255, 0.515);
+            
+        }
+        
+        #dot2
+        {
+            position: absolute;
+            top: 420px;
+            left: 320px;
+            font-size: large;
+            color: rgba(255, 255, 255, 0.515);
+            
+        }
+        
+        #dot3
+        {
+            position: absolute;
+            top: 485px;
+            left: 320px;
+            font-size: large;
+            color: rgba(255, 255, 255, 0.515);
+            
+        }
+        
+        #dot4
+        {
+            position: absolute;
+            top: 545px;
+            left: 320px;
+            font-size: large;
+            color: rgba(255, 255, 255, 0.515);
+            
+        }
+    
+
+    
+    
+}
+
+
+
+/* MEDIA SCREEN 320PX---- */
+
+
+@media screen and (min-width:320px) and (max-width:339px) {
+
+    body{width: 100%;
+    height: 100%;}
+
+    #year{font-size: largeR;
+        font-weight: 600;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-style:initial;
+        position: absolute;
+        top: -40px;
+        left: 5px;    
+        margin: -2px;}
+        
+        #icon{border: 1px solid transparent;
+        background-color: rgb(90, 53, 4);
+        font-size: small;
+        font-weight: 699;
+        border-radius: 50px;
+        padding: 2px;
+        margin-right:  10px;
+        }
+        
+        #id{font-size:15px ;
+            font-weight: 870;
+            color: white;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            position: absolute;
+            left: 0px; 
+            top: -25px;   
+            margin-top: 8px;
+            display: inline-block;
+        }
+        
+        #world{position: absolute;
+        top: 10px;}
+        
+        #download{position: absolute;
+            top: 285px;
+        left: 15px;}
+        
+        
+        #user{position: absolute;
+            top: 285px;
+        left: 55px;}
+        
+        
+        
+        
+        #maindot{position: absolute;
+            top: 285px;
+        left: 95px;}
+
+    
+#duration{font-size: large;
+    color: rgba(255, 255, 255, 0.708);
+    position: absolute;
+    left: 25px;  
+    top: 0px;  
+    margin-top: 8px;} 
+
+    
+#addsongs{color: white;
+    font-family :Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12PX;
+    font-weight: 600;
+    border: 1px solid rgba(255, 255, 255, 0.548);
+    border-radius: 20px;
+    padding: 3px 15px;
+position: absolute;
+top: 310px;}
+
+    
+#shuffle{position: absolute;
+    top: 285px;
+left: 255px;}
+
+
+#play{position: absolute;
+    top: 290px;
+left: 280px;
+}
+
+
+    #jailer{display: flex;
+        overflow: hidden;}
+
+        /* SHUFFLE BUTTON PLAY BUTTON */
+ 
+        
+
+
+        
+        /*IMAGE ICON  */
+        #imgicon
+        {position: absolute;
+            left: 0px; 
+            top: 350px;   
+            margin: 5px;}
+
+
+         #imgicon2
+         {position: absolute;
+            left: 0px; 
+            top: 410px;   
+            margin: 5px;}
+
+
+         #imgicon3
+         {position: absolute;
+            left: 0px; 
+            top: 470px;   
+            margin: 5px;}
+
+
+         #imgicon4
+         {position: absolute;
+            left: 0px; 
+            top: 530px;   
+            margin: 5px;}
+        
+        #songname
+        {color: white;            
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+        position: absolute;
+        top: 350px;
+        left: 60px;
+        margin: 8px;
+        text-align:left;
+        }
+
+
+        #songname2
+        {color: white;            
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+        position: absolute;
+        top: 410px;
+        left: 60px;
+        margin: 8px;
+        text-align:left;
+        }
+
+
+        #songname3
+        {color: white;            
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+        position: absolute;
+        top: 470px;
+        left: 60px;
+        margin: 8px;
+        text-align:left;
+        }
+
+
+        #songname4
+        {color: white;            
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+        position: absolute;
+        top: 530px;
+        left: 60px;
+        margin: 8px;
+        text-align:left;
+        } 
+     
+        
+        #lyrics
+        {
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: rgba(255, 255, 255, 0.768);
+            color: black;
+            font-weight: 550;
+            font-size: 12px;
+            border-radius: 5px;
+            padding: 1px;
+        
+        }
+
+
+        #lyrics2
+        {
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: rgba(255, 255, 255, 0.768);
+            color: black;
+            font-weight: 550;
+            font-size: 12px;
+            border-radius: 5px;
+            padding: 1px;
+        
+        }
+
+
+        #lyrics3
+        {
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: rgba(255, 255, 255, 0.768);
+            color: black;
+            font-weight: 550;
+            font-size: 12px;
+            border-radius: 5px;
+            padding: 1px;
+        
+        }
+
+        #lyrics4
+        {
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: rgba(255, 255, 255, 0.768);
+            color: black;
+            font-weight: 550;
+            font-size: 12px;
+            border-radius: 5px;
+            padding: 1px;
+        
+        }
+       
+        
+        #singername
+        {color: white;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-top: 5px;
+            font-size: 13px;
+        font-weight: 550;
+        color: rgba(255, 255, 255, 0.586);}
+        
+        #singername2
+        {color: white;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-top: 5px;
+            font-size: 13px;
+        font-weight: 550;
+        color: rgba(255, 255, 255, 0.586);}
+        
+        #singername3
+        {color: white;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-top: 5px;
+            font-size: 13px;
+        font-weight: 550;
+        color: rgba(255, 255, 255, 0.586);}
+        
+        #singername4
+        {color: white;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-top: 5px;
+            font-size: 13px;
+        font-weight: 550;
+        color: rgba(255, 255, 255, 0.586);}
+
+
+        
+        #dot
+        {
+            position: absolute;
+            top: 365px;
+            left: 305px;
+            font-size: large;
+            color: rgba(255, 255, 255, 0.515);
+            
+        }
+        
+        #dot2
+        {
+            position: absolute;
+            top: 420px;
+            left: 305px;
+            font-size: large;
+            color: rgba(255, 255, 255, 0.515);
+            
+        }
+        
+        #dot3
+        {
+            position: absolute;
+            top: 485px;
+            left: 305px;
+            font-size: large;
+            color: rgba(255, 255, 255, 0.515);
+            
+        }
+        
+        #dot4
+        {
+            position: absolute;
+            top: 545px;
+            left: 305px;
+            font-size: large;
+            color: rgba(255, 255, 255, 0.515);
+            
+        }
+    
+
+    
+    
+}
+
+
+/* MEDIA SCREEN 309PX---- */
+
+
+@media screen and (min-width:309px) and (max-width:319px) {
+
+    body{width: 100%;
+    height: 100%;}
+
+    #year{font-size: 15PX;
+        font-weight: 600;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-style:initial;
+        position: absolute;
+        top: -40px;
+        left: 4px;    
+        margin: -2px;}
+        
+        #icon{border: 1px solid transparent;
+        background-color: rgb(90, 53, 4);
+        font-size: 12PX;
+        font-weight: 699;
+        border-radius: 50px;
+        padding: 2px;
+        margin-right:  10px;
+        }
+        
+        #id{font-size:12px ;
+            font-weight: 870;
+            color: white;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            position: absolute;
+            left: 0px; 
+            top: -25px;   
+            margin-top: 8px;
+            display: inline-block;
+        }
+        
+        #world{position: absolute;
+        top: 5px;}
+        
+        #download{position: absolute;
+            top: 280px;
+        left: 15px;}
+        
+        
+        #user{position: absolute;
+            top: 280px;
+        left: 55px;}
+        
+        
+        
+        
+        #maindot{position: absolute;
+            top: 280px;
+        left: 95px;}
+
+    
+#duration{font-size: 15PX;
+    color: rgba(255, 255, 255, 0.708);
+    position: absolute;
+    left: 25px;  
+    top: 0px;  
+    margin-top: 6px;} 
+
+    
+#addsongs{color: white;
+    font-family :Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12PX;
+    font-weight: 600;
+    border: 1px solid rgba(255, 255, 255, 0.548);
+    border-radius: 20px;
+    padding: 3px 12px;
+position: absolute;
+top: 310px;}
+
+    
+#shuffle{position: absolute;
+    top: 285px;
+left: 245px;}
+
+
+#play{position: absolute;
+    top: 290px;
+left: 270px;
+}
+
+
+    #jailer{display: flex;
+        overflow: hidden;}
+
+        /* SHUFFLE BUTTON PLAY BUTTON */
+ 
+        
+
+
+        
+        /*IMAGE ICON  */
+        #imgicon
+        {position: absolute;
+            left: 0px; 
+            top: 350px;   
+            margin: 5px;}
+
+
+         #imgicon2
+         {position: absolute;
+            left: 0px; 
+            top: 410px;   
+            margin: 5px;}
+
+
+         #imgicon3
+         {position: absolute;
+            left: 0px; 
+            top: 470px;   
+            margin: 5px;}
+
+
+         #imgicon4
+         {position: absolute;
+            left: 0px; 
+            top: 530px;   
+            margin: 5px;}
+        
+        #songname
+        {color: white;            
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+        position: absolute;
+        top: 350px;
+        left: 60px;
+        margin: 8px;
+        text-align:left;
+        }
+
+
+        #songname2
+        {color: white;            
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+        position: absolute;
+        top: 410px;
+        left: 60px;
+        margin: 8px;
+        text-align:left;
+        }
+
+
+        #songname3
+        {color: white;            
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+        position: absolute;
+        top: 470px;
+        left: 60px;
+        margin: 8px;
+        text-align:left;
+        }
+
+
+        #songname4
+        {color: white;            
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+        position: absolute;
+        top: 530px;
+        left: 60px;
+        margin: 8px;
+        text-align:left;
+        } 
+     
+        
+        #lyrics
+        {
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: rgba(255, 255, 255, 0.768);
+            color: black;
+            font-weight: 550;
+            font-size: 12px;
+            border-radius: 5px;
+            padding: 1px;
+        
+        }
+
+
+        #lyrics2
+        {
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: rgba(255, 255, 255, 0.768);
+            color: black;
+            font-weight: 550;
+            font-size: 12px;
+            border-radius: 5px;
+            padding: 1px;
+        
+        }
+
+
+        #lyrics3
+        {
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: rgba(255, 255, 255, 0.768);
+            color: black;
+            font-weight: 550;
+            font-size: 12px;
+            border-radius: 5px;
+            padding: 1px;
+        
+        }
+
+        #lyrics4
+        {
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: rgba(255, 255, 255, 0.768);
+            color: black;
+            font-weight: 550;
+            font-size: 12px;
+            border-radius: 5px;
+            padding: 1px;
+        
+        }
+       
+        
+        #singername
+        {color: white;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-top: 5px;
+            font-size: 13px;
+        font-weight: 550;
+        color: rgba(255, 255, 255, 0.586);}
+        
+        #singername2
+        {color: white;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-top: 5px;
+            font-size: 13px;
+        font-weight: 550;
+        color: rgba(255, 255, 255, 0.586);}
+        
+        #singername3
+        {color: white;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-top: 5px;
+            font-size: 13px;
+        font-weight: 550;
+        color: rgba(255, 255, 255, 0.586);}
+        
+        #singername4
+        {color: white;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-top: 5px;
+            font-size: 13px;
+        font-weight: 550;
+        color: rgba(255, 255, 255, 0.586);}
+
+
+        
+        #dot
+        {
+            position: absolute;
+            top: 365px;
+            left: 296px;
+            font-size: large;
+            color: rgba(255, 255, 255, 0.515);
+            
+        }
+        
+        #dot2
+        {
+            position: absolute;
+            top: 420px;
+            left: 296px;
+            font-size: large;
+            color: rgba(255, 255, 255, 0.515);
+            
+        }
+        
+        #dot3
+        {
+            position: absolute;
+            top: 485px;
+            left: 296px;
+            font-size: large;
+            color: rgba(255, 255, 255, 0.515);
+            
+        }
+        
+        #dot4
+        {
+            position: absolute;
+            top: 545px;
+            left: 296px;
+            font-size: large;
+            color: rgba(255, 255, 255, 0.515);
+            
+        }
+    
+
+    
+    
+}
+
+
+
+
+/* MEDIA SCREEN MAXIMUM 308PX---- */
+
+
+@media screen and (min-width:10px) and (max-width:308px) {
+
+    body{width: 100%;
+    height: 100%;}
+
+    #year{font-size: 15PX;
+        font-weight: 600;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-style:initial;
+        position: absolute;
+        top: -40px;
+        left: 4px;    
+        margin: -2px;}
+        
+        #icon{border: 1px solid transparent;
+        background-color: rgb(90, 53, 4);
+        font-size: 12PX;
+        font-weight: 699;
+        border-radius: 50px;
+        padding: 2px;
+        margin-right:  10px;
+        }
+        
+        #id{font-size:12px ;
+            font-weight: 870;
+            color: white;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            position: absolute;
+            left: 0px; 
+            top: -25px;   
+            margin-top: 8px;
+            display: inline-block;
+        }
+        
+        #world{position: absolute;
+        top: 5px;}
+        
+        #download{position: absolute;
+            top: 280px;
+        left: 15px;}
+        
+        
+        #user{position: absolute;
+            top: 280px;
+        left: 55px;}
+        
+        
+        
+        
+        #maindot{position: absolute;
+            top: 280px;
+        left: 95px;}
+
+    
+#duration{font-size: 15PX;
+    color: rgba(255, 255, 255, 0.708);
+    position: absolute;
+    left: 25px;  
+    top: 0px;  
+    margin-top: 6px;} 
+
+    
+#addsongs{color: white;
+    font-family :Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12PX;
+    font-weight: 600;
+    border: 1px solid rgba(255, 255, 255, 0.548);
+    border-radius: 20px;
+    padding: 3px 12px;
+position: absolute;
+top: 310px;}
+
+    
+#shuffle{position: absolute;
+    top: 285px;
+left: 245px;}
+
+
+#play{position: absolute;
+    top: 290px;
+left: 270px;
+}
+
+
+    #jailer{display: flex;
+        overflow: hidden;}
+
+        /* SHUFFLE BUTTON PLAY BUTTON */
+ 
+        
+
+
+        
+        /*IMAGE ICON  */
+        #imgicon
+        {position: absolute;
+            left: 0px; 
+            top: 350px;   
+            margin: 5px;}
+
+
+         #imgicon2
+         {position: absolute;
+            left: 0px; 
+            top: 410px;   
+            margin: 5px;}
+
+
+         #imgicon3
+         {position: absolute;
+            left: 0px; 
+            top: 470px;   
+            margin: 5px;}
+
+
+         #imgicon4
+         {position: absolute;
+            left: 0px; 
+            top: 530px;   
+            margin: 5px;}
+        
+        #songname
+        {color: white;            
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+        position: absolute;
+        top: 350px;
+        left: 60px;
+        margin: 8px;
+        text-align:left;
+        }
+
+
+        #songname2
+        {color: white;            
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+        position: absolute;
+        top: 410px;
+        left: 60px;
+        margin: 8px;
+        text-align:left;
+        }
+
+
+        #songname3
+        {color: white;            
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+        position: absolute;
+        top: 470px;
+        left: 60px;
+        margin: 8px;
+        text-align:left;
+        }
+
+
+        #songname4
+        {color: white;            
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+        position: absolute;
+        top: 530px;
+        left: 60px;
+        margin: 8px;
+        text-align:left;
+        } 
+     
+        
+        #lyrics
+        {
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: rgba(255, 255, 255, 0.768);
+            color: black;
+            font-weight: 550;
+            font-size: 12px;
+            border-radius: 5px;
+            padding: 1px;
+        
+        }
+
+
+        #lyrics2
+        {
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: rgba(255, 255, 255, 0.768);
+            color: black;
+            font-weight: 550;
+            font-size: 12px;
+            border-radius: 5px;
+            padding: 1px;
+        
+        }
+
+
+        #lyrics3
+        {
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: rgba(255, 255, 255, 0.768);
+            color: black;
+            font-weight: 550;
+            font-size: 12px;
+            border-radius: 5px;
+            padding: 1px;
+        
+        }
+
+        #lyrics4
+        {
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: rgba(255, 255, 255, 0.768);
+            color: black;
+            font-weight: 550;
+            font-size: 12px;
+            border-radius: 5px;
+            padding: 1px;
+        
+        }
+       
+        
+        #singername
+        {color: white;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-top: 5px;
+            font-size: 13px;
+        font-weight: 550;
+        color: rgba(255, 255, 255, 0.586);}
+        
+        #singername2
+        {color: white;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-top: 5px;
+            font-size: 13px;
+        font-weight: 550;
+        color: rgba(255, 255, 255, 0.586);}
+        
+        #singername3
+        {color: white;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-top: 5px;
+            font-size: 13px;
+        font-weight: 550;
+        color: rgba(255, 255, 255, 0.586);}
+        
+        #singername4
+        {color: white;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-top: 5px;
+            font-size: 13px;
+        font-weight: 550;
+        color: rgba(255, 255, 255, 0.586);}
+
+
+        
+        #dot
+        {
+            position: absolute;
+            top: 365px;
+            left: 296px;
+            font-size: large;
+            color: rgba(255, 255, 255, 0.515);
+            
+        }
+        
+        #dot2
+        {
+            position: absolute;
+            top: 420px;
+            left: 296px;
+            font-size: large;
+            color: rgba(255, 255, 255, 0.515);
+            
+        }
+        
+        #dot3
+        {
+            position: absolute;
+            top: 485px;
+            left: 296px;
+            font-size: large;
+            color: rgba(255, 255, 255, 0.515);
+            
+        }
+        
+        #dot4
+        {
+            position: absolute;
+            top: 545px;
+            left: 296px;
+            font-size: large;
+            color: rgba(255, 255, 255, 0.515);
+            
+        }
+    
+
+    
+    
+}
+
+
+
+
+
+
+
+
+
+   

@@ -1,0 +1,102 @@
+*{margin: 0%;
+    padding: 0%;}
+    
+    body{
+        
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-color: rgba(0, 0, 0, 0.883);
+    }
+
+    #back{position: absolute;
+    top: 10px;
+left: 30px;
+font-size: x-large;}
+        
+    
+    
+    
+    
+    .main{display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 2%;}
+    
+    .container{width: 400px;
+    height: 600px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgba(49, 109, 13, 0.849), black);
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;}
+    
+    
+    #from{color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: larger;
+    position:absolute ;
+    top: 1%;
+    }
+    
+    #songname{color: white;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        font-size: larger;
+    font-weight: 800;
+    position:absolute ;
+    top: 5%;}
+    
+    
+    #image{
+        
+        
+        margin: 20px ,70px;
+        position:absolute ;
+    top: 18%;
+    }
+    
+    #songname2{color: white;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: x-large;
+    font-weight: 1000;
+    position: absolute;
+    left: 12.3%;
+    bottom: 22%;
+    
+    }
+    
+    #singername{color: white;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 10px;
+        font-size: large;
+    font-weight: 550;
+    position: absolute;
+    left: 12.3%;
+    bottom: 17%;
+    color: rgba(255, 255, 255, 0.586);}
+
+    /* #checkbox{position: absolute;
+    left: 20%;} */
+    
+     
+    #music{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+    bottom: 5%;
+    }
+
+    
+#nextsong{
+    padding: 20px 5px;
+}
+    
+    #previoussong{
+        padding:20px 5px ;
+    }
